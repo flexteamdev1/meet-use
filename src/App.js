@@ -1,5 +1,6 @@
 import React from 'react';
 import GoogleAdsId from './GoogleAdsId';
+// import Example from './GoogleAdsId';
 import './style.css';
 
 export default function App() {
@@ -12,6 +13,9 @@ export default function App() {
         placeholder="Google Ads Id"
         replacement={{ _: /\d/ }}
       />
+      <p>Example Start editing to see some magic happen :)</p>
+
+      {/* <Example /> */}
     </div>
   );
 }
